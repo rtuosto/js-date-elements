@@ -1,5 +1,5 @@
 # Overview
-A simple Date object extension for adding commonly needed formats and methods.
+A simple Date object extension for adding commonly needed methods for formatting dates
 
 # Usage
 Include the date-format file in your HTML.
