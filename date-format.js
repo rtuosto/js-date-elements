@@ -15,8 +15,7 @@ Date.prototype.getPeriod = function() {
 }
 
 Date.prototype.getTimezone = function() {
-    var pattern = /\(([A-Za-z\s].*)\)/,
-        timezone = this.toString().match(pattern);
+    var timezone = this.toString().match(/\(([A-Za-z\s].*)\)/);
 
     return timezone.length ? timezone[1] : false;
 }
