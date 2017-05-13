@@ -18,4 +18,8 @@ d.getHour12(); // Returns the hour in a 12-hour clockformat
 d.getPeriod();  // Returns 'am' or 'pm' based on the 12-hour clock
 
 d.getTimezone(); // Returns local timezone
+
+d.getTimestamp(); // Returns local datetime in SQL style timestamp
+
+d.getUTCTimestamp(); // Returns UTC datetime SQL style timestamp
 ```
